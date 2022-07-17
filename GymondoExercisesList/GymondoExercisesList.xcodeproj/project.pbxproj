@@ -16,6 +16,8 @@
 		A8877823288497B900A57758 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8877822288497B900A57758 /* Exercise.swift */; };
 		A8877827288497DC00A57758 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8877826288497DC00A57758 /* ExerciseCell.swift */; };
 		A887782D2884A47C00A57758 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A887782C2884A47C00A57758 /* Kingfisher */; };
+		A887782F2884A69A00A57758 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887782E2884A69A00A57758 /* APIClient.swift */; };
+		A88778312884A6CD00A57758 /* ExerciseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88778302884A6CD00A57758 /* ExerciseResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		A887781B2884961000A57758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8877822288497B900A57758 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		A8877826288497DC00A57758 /* ExerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
+		A887782E2884A69A00A57758 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A88778302884A6CD00A57758 /* ExerciseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 			children = (
 				A88778282884991800A57758 /* Repo */,
 				A8877822288497B900A57758 /* Exercise.swift */,
+				A88778302884A6CD00A57758 /* ExerciseResponse.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 		A88778282884991800A57758 /* Repo */ = {
 			isa = PBXGroup;
 			children = (
+				A887782E2884A69A00A57758 /* APIClient.swift */,
 			);
 			path = Repo;
 			sourceTree = "<group>";
@@ -189,6 +195,8 @@
 				A887780E2884960D00A57758 /* AppDelegate.swift in Sources */,
 				A8877827288497DC00A57758 /* ExerciseCell.swift in Sources */,
 				A88778102884960D00A57758 /* SceneDelegate.swift in Sources */,
+				A887782F2884A69A00A57758 /* APIClient.swift in Sources */,
+				A88778312884A6CD00A57758 /* ExerciseResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
