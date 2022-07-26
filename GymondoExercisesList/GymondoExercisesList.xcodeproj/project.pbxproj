@@ -23,6 +23,7 @@
 		A88778422884AE2400A57758 /* ExercisesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88778412884AE2400A57758 /* ExercisesRouter.swift */; };
 		A8E00E55288F5DA800570AA7 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E00E54288F5DA800570AA7 /* Image.swift */; };
 		A8E00E67288F72CA00570AA7 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E00E66288F72CA00570AA7 /* BaseModel.swift */; };
+		A8E00E69288F75EA00570AA7 /* ExerciseDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E00E68288F75EA00570AA7 /* ExerciseDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		A8E00E54288F5DA800570AA7 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		A8E00E5A288F672800570AA7 /* GymondoExercisesListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymondoExercisesListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E00E66288F72CA00570AA7 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		A8E00E68288F75EA00570AA7 /* ExerciseDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			children = (
 				A8877825288497C800A57758 /* Cells */,
 				A88778362884A99800A57758 /* ExercisesList.swift */,
+				A8E00E68288F75EA00570AA7 /* ExerciseDetails.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				A8877827288497DC00A57758 /* ExerciseCell.swift in Sources */,
 				A887783A2884A9F900A57758 /* ExercisesListPresenter.swift in Sources */,
 				A88778372884A99800A57758 /* ExercisesList.swift in Sources */,
+				A8E00E69288F75EA00570AA7 /* ExerciseDetails.swift in Sources */,
 				A887783C2884AAC600A57758 /* ExercisesListProtocols.swift in Sources */,
 				A887782F2884A69A00A57758 /* APIClient.swift in Sources */,
 				A88778312884A6CD00A57758 /* ExerciseResponse.swift in Sources */,

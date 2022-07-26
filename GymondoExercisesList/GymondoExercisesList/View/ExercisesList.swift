@@ -8,6 +8,7 @@
 import UIKit
 
 import UIKit
+import SwiftUI
 
 class ExercisesListViewController: UIViewController, UITableViewDelegate {
     
@@ -74,5 +75,10 @@ extension ExercisesListViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let viewController = UIHostingController(rootView: ExerciseView(exercise: exercises[indexPath.row]))
+        navigationController?.pushViewController(viewController, animated: true)
     }
 }
