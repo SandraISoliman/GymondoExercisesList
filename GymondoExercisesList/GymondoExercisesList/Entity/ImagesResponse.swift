@@ -1,16 +1,16 @@
 //
-//  ExerciseResponse.swift
+//  ImagesResponse.swift
 //  GymondoExercisesList
 //
-//  Created by Sandra Soliman on 17/07/2022.
+//  Created by Sandra Soliman on 26/07/2022.
 //
 
 import Foundation
 
-struct ExercisesResponse: Decodable, Equatable {
+struct ImagesResponse: Decodable, Equatable {
     
     let count: Int?
-    let results: [Exercise]?
+    let results: [Image]?
     let next: String?
     let previous: String?
     
@@ -21,7 +21,7 @@ struct ExercisesResponse: Decodable, Equatable {
         case previous = "previous"
     }
     
-    static func == (lhs: ExercisesResponse, rhs: ExercisesResponse) -> Bool {
+    static func == (lhs: ImagesResponse, rhs: ImagesResponse) -> Bool {
         if lhs.count == rhs.count &&
             lhs.results == rhs.results &&
             lhs.next == rhs.next &&
@@ -31,3 +31,4 @@ struct ExercisesResponse: Decodable, Equatable {
         return false
     }
 }
+

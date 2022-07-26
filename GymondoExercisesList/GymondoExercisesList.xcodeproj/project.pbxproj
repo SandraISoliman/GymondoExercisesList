@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A887780E2884960D00A57758 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887780D2884960D00A57758 /* AppDelegate.swift */; };
-		A88778102884960D00A57758 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887780F2884960D00A57758 /* SceneDelegate.swift */; };
-		A88778122884960D00A57758 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88778112884960D00A57758 /* ViewController.swift */; };
 		A88778152884960D00A57758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88778132884960D00A57758 /* Main.storyboard */; };
 		A88778172884961000A57758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88778162884961000A57758 /* Assets.xcassets */; };
 		A887781A2884961000A57758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88778182884961000A57758 /* LaunchScreen.storyboard */; };
@@ -18,13 +16,18 @@
 		A887782D2884A47C00A57758 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A887782C2884A47C00A57758 /* Kingfisher */; };
 		A887782F2884A69A00A57758 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887782E2884A69A00A57758 /* APIClient.swift */; };
 		A88778312884A6CD00A57758 /* ExerciseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88778302884A6CD00A57758 /* ExerciseResponse.swift */; };
+		A88778372884A99800A57758 /* ExercisesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88778362884A99800A57758 /* ExercisesList.swift */; };
+		A887783A2884A9F900A57758 /* ExercisesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88778392884A9F900A57758 /* ExercisesListPresenter.swift */; };
+		A887783C2884AAC600A57758 /* ExercisesListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887783B2884AAC600A57758 /* ExercisesListProtocols.swift */; };
+		A887783F2884AC7800A57758 /* ExercisesListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887783E2884AC7800A57758 /* ExercisesListInteractor.swift */; };
+		A88778422884AE2400A57758 /* ExercisesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88778412884AE2400A57758 /* ExercisesRouter.swift */; };
+		A8E00E53288F5D7900570AA7 /* ImagesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E00E52288F5D7900570AA7 /* ImagesResponse.swift */; };
+		A8E00E55288F5DA800570AA7 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E00E54288F5DA800570AA7 /* Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A887780A2884960D00A57758 /* GymondoExercisesList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymondoExercisesList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A887780D2884960D00A57758 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A887780F2884960D00A57758 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A88778112884960D00A57758 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A88778142884960D00A57758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A88778162884961000A57758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A88778192884961000A57758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,6 +36,13 @@
 		A8877826288497DC00A57758 /* ExerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
 		A887782E2884A69A00A57758 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		A88778302884A6CD00A57758 /* ExerciseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseResponse.swift; sourceTree = "<group>"; };
+		A88778362884A99800A57758 /* ExercisesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesList.swift; sourceTree = "<group>"; };
+		A88778392884A9F900A57758 /* ExercisesListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesListPresenter.swift; sourceTree = "<group>"; };
+		A887783B2884AAC600A57758 /* ExercisesListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesListProtocols.swift; sourceTree = "<group>"; };
+		A887783E2884AC7800A57758 /* ExercisesListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesListInteractor.swift; sourceTree = "<group>"; };
+		A88778412884AE2400A57758 /* ExercisesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesRouter.swift; sourceTree = "<group>"; };
+		A8E00E52288F5D7900570AA7 /* ImagesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesResponse.swift; sourceTree = "<group>"; };
+		A8E00E54288F5DA800570AA7 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +76,12 @@
 		A887780C2884960D00A57758 /* GymondoExercisesList */ = {
 			isa = PBXGroup;
 			children = (
+				A88778402884AE0B00A57758 /* Router */,
+				A887783D2884AC5F00A57758 /* Interactor */,
+				A88778382884A9E700A57758 /* Presenter */,
 				A8877824288497BE00A57758 /* Entity */,
 				A8877821288496A900A57758 /* View */,
 				A887780D2884960D00A57758 /* AppDelegate.swift */,
-				A887780F2884960D00A57758 /* SceneDelegate.swift */,
-				A88778112884960D00A57758 /* ViewController.swift */,
 				A88778132884960D00A57758 /* Main.storyboard */,
 				A88778162884961000A57758 /* Assets.xcassets */,
 				A88778182884961000A57758 /* LaunchScreen.storyboard */,
@@ -83,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				A8877825288497C800A57758 /* Cells */,
+				A88778362884A99800A57758 /* ExercisesList.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -93,6 +105,9 @@
 				A88778282884991800A57758 /* Repo */,
 				A8877822288497B900A57758 /* Exercise.swift */,
 				A88778302884A6CD00A57758 /* ExerciseResponse.swift */,
+				A887783B2884AAC600A57758 /* ExercisesListProtocols.swift */,
+				A8E00E52288F5D7900570AA7 /* ImagesResponse.swift */,
+				A8E00E54288F5DA800570AA7 /* Image.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -111,6 +126,30 @@
 				A887782E2884A69A00A57758 /* APIClient.swift */,
 			);
 			path = Repo;
+			sourceTree = "<group>";
+		};
+		A88778382884A9E700A57758 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A88778392884A9F900A57758 /* ExercisesListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A887783D2884AC5F00A57758 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A887783E2884AC7800A57758 /* ExercisesListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A88778402884AE0B00A57758 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A88778412884AE2400A57758 /* ExercisesRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,11 +229,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A88778122884960D00A57758 /* ViewController.swift in Sources */,
+				A88778422884AE2400A57758 /* ExercisesRouter.swift in Sources */,
+				A8E00E55288F5DA800570AA7 /* Image.swift in Sources */,
+				A8E00E53288F5D7900570AA7 /* ImagesResponse.swift in Sources */,
+				A887783F2884AC7800A57758 /* ExercisesListInteractor.swift in Sources */,
 				A8877823288497B900A57758 /* Exercise.swift in Sources */,
 				A887780E2884960D00A57758 /* AppDelegate.swift in Sources */,
 				A8877827288497DC00A57758 /* ExerciseCell.swift in Sources */,
-				A88778102884960D00A57758 /* SceneDelegate.swift in Sources */,
+				A887783A2884A9F900A57758 /* ExercisesListPresenter.swift in Sources */,
+				A88778372884A99800A57758 /* ExercisesList.swift in Sources */,
+				A887783C2884AAC600A57758 /* ExercisesListProtocols.swift in Sources */,
 				A887782F2884A69A00A57758 /* APIClient.swift in Sources */,
 				A88778312884A6CD00A57758 /* ExerciseResponse.swift in Sources */,
 			);
@@ -348,6 +392,7 @@
 				DEVELOPMENT_TEAM = 4264DKW9FH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GymondoExercisesList/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -376,6 +421,7 @@
 				DEVELOPMENT_TEAM = 4264DKW9FH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GymondoExercisesList/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

@@ -19,9 +19,9 @@ struct Exercise: Decodable, Equatable {
     let musclesSecondary: [Int]?
     let equipment: [Int]?
     let license: Int?
-    let licenseAuthor: [Int]?
+    let licenseAuthor: String?
     let variations: [Int]?
-    let image: String?
+    var image: String?
     
     
     enum CodingKeys: String, CodingKey {
