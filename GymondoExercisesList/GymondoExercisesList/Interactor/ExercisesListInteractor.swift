@@ -25,21 +25,8 @@ class ExercisesListInteractor: PresenterToInteractorExercisesListProtocol {
                 }
             } receiveValue: { [weak self] exercisesResponse in
                 if let exercises = exercisesResponse.results{
-                    self?.loadExercisesImages()
                     self?.presenter?.exercisesSuccess(list: exercises)
                 }
             }
     }
-    
-    func loadExercisesImages() {
-        cancellable = APIService.fetchImages()
-            .receive(on: DispatchQueue.main)
-            .sink { _ in
-            } receiveValue: { imagesResponse in
-                if let images = imagesResponse.results{
-                    self.presenter?.exercisesImagesSuccess(list: images)
-                }
-            }
-    }
-    
 }

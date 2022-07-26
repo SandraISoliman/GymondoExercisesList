@@ -10,7 +10,6 @@ import Combine
 
 protocol ExercisesClientProtocol {
     static func fetchExercises() -> AnyPublisher<ExercisesResponse, Error>
-    static func fetchImages() -> AnyPublisher<ImagesResponse, Error>
 }
 
 protocol ViewToPresenterExercisesListProtocol {
@@ -26,7 +25,6 @@ protocol ViewToPresenterExercisesListProtocol {
 
 protocol PresenterToViewExercisesListProtocol {
     func onResponseSucces(list: [Exercise])
-    func onResponseSuccesImages(list: [Image])
     func onResponseFailed(error: String)
 }
 
@@ -45,6 +43,5 @@ protocol PresenterToInteractorExercisesListProtocol {
 
 protocol InteractorToPresenterExercisesListProtocol {
     func exercisesSuccess(list: Array<Exercise>)
-    func exercisesImagesSuccess(list: Array<Image>)
     func exercisesFailed()
 }

@@ -14,9 +14,9 @@
             filePath = "GymondoExercisesList/Presenter/ExercisesListPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "exercisesFailed()"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "exercisesSuccess(list:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -183,38 +183,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8DF526ED-B391-4B31-962A-715B30E95237"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GymondoExercisesList/View/ExercisesList.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "onResponseSuccesImages(list:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DA5D5CD6-5D79-4816-BACB-7FBEEE91AC5A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GymondoExercisesList/View/ExercisesList.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "onResponseSuccesImages(list:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "E68A9A8F-27DD-4ED8-A811-CE4C3DFEA6FA"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -224,8 +192,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "53"
             endingLineNumber = "53"
-            landmarkName = "onResponseSuccesImages(list:)"
-            landmarkType = "7">
+            landmarkName = "ExercisesListViewController"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

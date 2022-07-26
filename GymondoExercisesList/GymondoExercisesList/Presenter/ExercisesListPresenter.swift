@@ -21,10 +21,6 @@ class ExercisesListPresenter: ViewToPresenterExercisesListProtocol {
 }
 
 extension ExercisesListPresenter: InteractorToPresenterExercisesListProtocol {
-    func exercisesImagesSuccess(list: Array<Image>) {
-        view?.onResponseSuccesImages(list: list)
-    }
-    
     func exercisesSuccess(list: Array<Exercise>) {
         view?.onResponseSucces(list: list)
     }

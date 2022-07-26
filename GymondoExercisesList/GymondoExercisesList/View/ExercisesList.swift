@@ -50,14 +50,6 @@ class ExercisesListViewController: UIViewController, UITableViewDelegate {
 }
 
 extension ExercisesListViewController: PresenterToViewExercisesListProtocol {
-    func onResponseSuccesImages(list: [Image]) {
-        for image in list{
-            if var exercise = exercises.first(where: {$0.exerciseBase == image.exerciseBase}) {
-                exercise.image = image.image
-            }
-        }
-        tableView.reloadData()
-    }
     
     func onResponseSucces(list: [Exercise]) {
         self.exercises = list

@@ -33,7 +33,19 @@ class ExerciseCell: UITableViewCell {
         contentView.addSubview(exerciseImageView)
         exerciseImageView.translatesAutoresizingMaskIntoConstraints = false
         exerciseImageView.contentMode = .scaleToFill
-        exerciseImageView.kf.setImage(with: URL(string: exercise?.image ?? ""), placeholder: UIImage(named: "placeholder"))
+        
+        if let images = exercise?.images{
+            for image in images{
+                if image.isMain ?? true {
+                    if let image = image.image{
+                        exerciseImageView.kf.setImage(with: URL(string: image),  placeholder: UIImage(named: "placeholder"))
+                    }else{
+                        exerciseImageView.image = UIImage(named: "placeholder")
+                    }
+                }
+                break
+            }
+        }
         
         NSLayoutConstraint.activate([
             exerciseImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16),
